@@ -28,7 +28,7 @@ const vector<vector<int>> Direction::four = {{-1, 0}, {1, 0}, {0, -1}, {0, 1}};
 
 int main() {
   string data_path =
-      "/home/william/Codes/op-kernel-cc-thr-rm/data/dispL_x64_U16.png";
+      "D:/william/codes/op-kernel-connected-component-thr/data/dispL_x64_U16.png";
   int radius = 5;
   float thr = 2.5;
   cv::Mat m_cv = cv::imread(data_path, cv::IMREAD_ANYDEPTH);
